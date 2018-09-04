@@ -36,6 +36,7 @@ open class ScalingCarouselLayout: UICollectionViewFlowLayout {
         // Set itemSize based on total width and inset
         itemSize = collectionViewSize
         itemSize.width = itemSize.width - (inset * 2)
+        itemSize.height = itemSize.height - 20
         
         // Set scrollDirection and paging
         scrollDirection = .horizontal
